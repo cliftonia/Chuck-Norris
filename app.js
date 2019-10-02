@@ -6,12 +6,13 @@ var handleClick = function(event) {
   event.preventDefault();
 
   var options = {
-    url: "https://api.chucknorris.io/jokes/random"
+    url:
+      "https://cors-anywhere.herokuapp.com/https://api.chucknorris.io/jokes/random"
   };
 
   var options2 = {
     url:
-      "http://api.giphy.com/v1/gifs/random?tag=chucknorris&api_key=Tg9V3TkAY9BFePnwVwuRzQRa5bBgsejc"
+      "https://cors-anywhere.herokuapp.com/http://api.giphy.com/v1/gifs/random?tag=chucknorris&api_key=Tg9V3TkAY9BFePnwVwuRzQRa5bBgsejc"
   };
 
   $.ajax(options2).done(function(resp) {
