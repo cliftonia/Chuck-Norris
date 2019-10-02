@@ -1,0 +1,13 @@
+img {
+  width: 50%;
+}
+
+.joke-text {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.container {
+  text-align: center;
+}
